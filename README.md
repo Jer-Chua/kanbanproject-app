@@ -2,9 +2,15 @@
 
 A Kanban-style task management application built with Vue 3 and Vite. This application allows users to manage tasks across different boards with user authentication features.
 
-## 📁 Project Structure
 
-kanbanproject-app/ ├── .firebase/ # Firebase configuration files ├── .vscode/ # VSCode editor settings ├── public/ # Static assets ├── src/ # Source code directory │ ├── assets/ # Static images and styles │ ├── components/ # Vue components (Board, TaskCard, Modals, etc.) │ ├── router/ # Vue Router setup │ ├── views/ # Page-level views (Dashboard, Login, Register, etc.) │ ├── store/ # Global state management (e.g., Pinia or Vuex) │ └── main.js # App entry point ├── .firebaserc # Firebase project aliases ├── .gitignore # Git ignore rules ├── README.md # Project documentation ├── apphosting.yaml # Hosting configuration ├── firebase.json # Firebase configuration ├── firestore.indexes.json # Firestore indexes ├── firestore.rules # Firestore security rules ├── index.html # Main HTML file ├── package-lock.json # Package lock file ├── package.json # Project metadata and dependencies └── vite.config.js # Vite configuration
+### 📂 Detailed Directory Descriptions
+
+- **`/src/components`**: Contains reusable Vue components that define the layout and functionality of various cards and UI elements within the application.&#8203;:contentReference[oaicite:0]{index=0}
+
+- **`/src/views`**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
+
+- **`/src/model`**: Includes data structure models and type definitions used throughout the application to ensure consistent data handling and type safety.&#8203;:contentReference[oaicite:3]{index=3}
+
 
 
 ## 🛠️ Tech Stack
